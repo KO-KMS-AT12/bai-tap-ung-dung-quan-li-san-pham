@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="showProduct()">
+<form>
+    <div>
+        <div>
+            <h3>Add New Product</h3>
+            <input id="txtProduct" type="text" placeholder="New Product">
+            <input onclick="addProduct()" type="button" value="Add">
+        </div>
+        <div>
+            <h3>Display All Product</h3>
+            <table>
+                <tr>
+                    <th>Product Name</th>
+                    <th colspan="2">Count:
+                        <h id="countProduct"></h>
+                    </th>
+                </tr>
+                <tbody id="products">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</form>
+<script src="main.js"></script>
+</body>
+</html>
