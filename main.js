@@ -28,7 +28,6 @@ function delProduct(item) {
     refersh();
     products.splice(item, item + 1);
     showProduct();
-
 }
 
 function editProduct(item) {
