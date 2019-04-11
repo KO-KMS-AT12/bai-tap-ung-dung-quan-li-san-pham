@@ -9,7 +9,7 @@
     <div>
         <div>
             <h3>Add New Product</h3>
-            <input id="txtProduct" type="text" placeholder="New Product">
+            <input id="txtProduct" type="text" placeholder="New Product" onfocus="this.value=''">
             <input onclick="add()" type="button" value="Add">
         </div>
         <div>
@@ -26,7 +26,7 @@
             </table>
         </div>
         <div>
-            <input type="text" id="editProduct" style="visibility: hidden">
+            <input type="text" id="editProduct" onfocus="this.value=''" style="visibility: hidden">
             <input type="button" id="btnSave" value="Save" style="visibility: hidden">
             <input type="button" id="btnCancel" value="Cancel" style="visibility: hidden">
         </div>
